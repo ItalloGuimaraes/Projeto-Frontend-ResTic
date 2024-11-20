@@ -1,0 +1,13 @@
+<div class="menu">
+    <h1>Cardápio</h1>
+    <div class="menu-items">
+      <card
+        ng-repeat="item in $ctrl.items"
+        title="{{item.title}}"
+        description="{{item.description}}"
+        price="{{item.price}}"
+        image="{{item.image}}"
+      ></card>
+    </div>
+  </div>
+  

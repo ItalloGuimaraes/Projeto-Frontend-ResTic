@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="BurguerManiaApp">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burguer Mania</title>
+
+  <!-- AngularJS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <header-component></header-component>
+  </header>
+
+  <!-- Descrição -->
+  <description-component></description-component>
+
+  <!-- Botão -->
+  <button-component></button-component>
+
+  <!-- Container Principal -->
+  <main>
+    <!-- Rotas da Aplicação -->
+    <ng-view></ng-view>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Burguer Mania - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Aplicação AngularJS -->
+  <script src="./app/app.js"></script>
+
+  <!-- Componentes -->
+  <script src="./app/components/header/header.component.js"></script>
+  <script src="./app/components/button/button.component.js"></script>
+  <script src="./app/components/card/card.component.js"></script>
+  <script src="./app/components/description/description.component.js"></script>
+  <script src="./app/components/input/input.component.js"></script>
+
+  <!-- Páginas -->
+  <script src="./app/pages/home/home.component.js"></script>
+  <script src="./app/pages/menu/menu.component.js"></script>
+  <script src="./app/pages/product-details/product-details.component.js"></script>
+  <script src="./app/pages/order/order.component.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+header {
+    background-color: #521d16;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  

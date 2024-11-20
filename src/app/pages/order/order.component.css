@@ -1,0 +1,14 @@
+.order {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .order .btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #521d16;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
